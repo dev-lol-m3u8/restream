@@ -1,0 +1,20 @@
+{
+  "name": "rtmp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rtmp-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node rtmp-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.21.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-media-server": "^2.7.0",
+    "serve-static": "^1.16.2"
+  }
+}
